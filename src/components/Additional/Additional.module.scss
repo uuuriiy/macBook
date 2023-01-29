@@ -1,0 +1,48 @@
+.additional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom: 1px solid lightgray;
+
+
+    h1 {
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: 500;
+        text-align: center;
+        color: black;
+        text-transform: uppercase;
+        margin: 50px 0;
+    }
+
+    figure {
+        padding-bottom: 60px;
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        img {
+            flex: 0.5;
+        }
+
+        p {
+            flex: 0.5;
+            font-size: 24px;
+            line-height: 34px;
+            font-weight: 500;
+        }
+    }
+}

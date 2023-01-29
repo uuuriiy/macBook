@@ -1,0 +1,25 @@
+.home {
+    height: 640px;
+    width: 100%;
+    background-image: url('../../assets/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+
+    figure {
+        margin-top: 40px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+    }
+}

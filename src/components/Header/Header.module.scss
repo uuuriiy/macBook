@@ -1,0 +1,74 @@
+.header {
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid lightgray;
+
+    &__content {
+        margin: 0 auto;
+        max-width: 1300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 34px 30px 36px 30px;
+    }
+
+    &__title {
+        font-weight: 800;
+        font-size: 34px;
+        line-height: 90px;
+        letter-spacing: 0.03em;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    &__logo {
+        width: 150px;
+        height: 150px;
+        margin-right: 20px;
+        transition: transform .5s ease-in;
+
+        &:hover {
+            transform: scale(1.2, 1.2);
+            transition: transform .5s ease-out;
+        }
+    }
+}
+
+.nav {
+    box-sizing: border-box;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 0 80px;
+
+        a {
+            position: relative;
+            box-sizing: border-box;
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 90px;
+            letter-spacing: 0.03em;
+
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 0;
+                height: 2px;
+                background-color: wheat;
+                transition: width 0.5s ease-out;
+            }
+
+            &:hover::before {
+                width: 100%;
+            }
+
+        }
+    }
+}
