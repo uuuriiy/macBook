@@ -16,19 +16,19 @@ export const Products = () => {
             <div className={styles.products__content}>
                 <figure>
                     <img src={item_1} alt="item_1" width={500} height={400} />
-                    <figcaption>Ноутбук Apple MacBook Pro 16" M2<br/> Pro 1TB 2023 (MNW93UA/A) Space Gray</figcaption>
+                    <figcaption>Ноутбук Apple MacBook Pro 16" M2<br/> Pro 1TB 2023 (MNW93UA/A) Space Gray <br/> $ 2568</figcaption>
                 </figure>
                 <figure>
                     <img src={item_2} alt="item_2" width={500} height={400} />
-                    <figcaption>Ноутбук Apple MacBook Pro 16" M1<br/> Pro 512GB 2021 (MK1E3UA/A) Silver</figcaption>
+                    <figcaption>Ноутбук Apple MacBook Pro 16" M1<br/> Pro 512GB 2021 (MK1E3UA/A) Silver <br/> $ 2236</figcaption>
                 </figure>
                 <figure>
                     <img src={item_3} alt="item_3" width={500} height={400} />
-                    <figcaption>Ноутбук Apple MacBook Air 13" M1<br/> 256GB 2020 (MGN93) Silver</figcaption>
+                    <figcaption>Ноутбук Apple MacBook Air 13" M1<br/> 256GB 2020 (MGN93) Silver <br/> $ 2749</figcaption>
                 </figure>
                 <figure>
                     <img src={item_4} alt="item_4" width={500} height={400} />
-                    <figcaption>Ноутбук Apple MacBook Air 13.6"<br/> M2 256GB 2022 (MLY33UA/A) Midnight</figcaption>
+                    <figcaption>Ноутбук Apple MacBook Air 13.6"<br/> M2 256GB 2022 (MLY33UA/A) Midnight <br/> $ 1978</figcaption>
                 </figure>
             </div>
         </section>
