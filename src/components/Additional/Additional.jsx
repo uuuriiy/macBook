@@ -15,10 +15,10 @@ export const Additional = () => {
             <div className={styles.additional__items}>
               <div className={styles.additional__item}>
                 <img src={Customer_1} alt="Customer_1" height={500} />
-                <p>Микита – студент, який вчиться на бакалавраті та працює backend developer  в IT фірмі.</p>
+                <p>Nikita is a student studying for a bachelor's degree and working as a backend developer in an IT company.</p>
               </div>
               <div className={styles.additional__item}>
-                <p>Aнастасія - 33-річна дизайнер інтер’єру.</p>
+                <p>Anastasia is a 33-year-old interior designer.</p>
                 <img src={Customer_2} alt="Customer_2" height={500} />
               </div>
             </div>

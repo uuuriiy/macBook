@@ -12,22 +12,22 @@ export const About = () => {
             <h1>About MacBook</h1>
             <div className={styles.about__content}>
                 <p>
-                    Компанія Apple ще з 1977 року, після презентації персонального комп'ютера Apple II, 
-                    задала тон у виробництві унікальних персональних машин, здатних стати корисними не тільки вченим і інженерам, 
-                    але і простим користувачам. Що викупалася в променях слави, Стів Джобс, 
-                    на виставці Worldwide Developer Conference в 2005 році зробив сенсаційну заяву, повідомивши, 
-                    що для бренду настає нова ера, оскільки назавжди відмовляться від процесорів IBM PowerPC на користь Intel.
-                    Після довгих обіцянок в початку 2006 року Джобс представив світу перший MacBook Pro, стверджуючи, що цей ноутбук стане справжнім революціонером комп'ютерної індустрії.
-                    Щоб стерти всі асоціації про попередній ноутбук з процесором PowerPC, 
-                    маркетологи компанії кардинально змінюють назву пристрою на MacBook Pro, де літери «Mac», 
-                    стали ім'ям прозивним вже на цілих 11 років.
-                    Перші моделі отримали покращену графіку і пристойну яскравість дисплея.
+                    Since 1977, after the presentation of the Apple II personal computer, 
+                    the Apple company has set the tone in the production of unique personal machines that can be useful not only to scientists and engineers, 
+                    but also to ordinary users. Bathed in the rays of glory, Steve Jobs,
+                    made a sensational statement at the Worldwide Developer Conference in 2005, announcing
+                    that a new era is coming for the brand, as they will forever abandon IBM PowerPC processors in favor of Intel.
+                    After long promises, in early 2006, Jobs presented the world with the first MacBook Pro, claiming that this laptop would be a true revolutionary in the computer industry.
+                    To erase all associations with the previous PowerPC laptop,
+                    the company's marketers radically change the name of the device to MacBook Pro, where the letters "Mac",
+                    became a household name for 11 years.
+                    The first models received improved graphics and decent display brightness.
                 </p>
                 <div className={styles.about__img} />
             </div>
         </section>
         <section className={styles.swot}>
-            <h1>SWOT-аналіз</h1>
+            <h1>SWOT-analisys</h1>
             <figure>
                 <img src={Swot} alt="swot" height={500} />
             </figure>
